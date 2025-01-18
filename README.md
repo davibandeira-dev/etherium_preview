@@ -1,2 +1,3 @@
-# etherium_preview
-Um layout simples de acompanhamento da moeda digital
+# projeto_etherium
+ 
+ Um layout simples de acompanhamento de moeda

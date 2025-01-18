@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: "Outfit", sans-serif;
+}
+
+#card{
+    background-color: hsl(216, 50%, 16%);
+    min-width: 200px;
+    width: 350px;
+    min-height: 300px;
+    height: 600px;
+    border-radius: 10px;
+    margin: auto;
+    position: relative;
+    top: 50px;
+}
+
+#card-content{
+    
+    width: 85%;
+    height: 90%;
+    margin: auto;
+    position: absolute;
+    top: 25px;
+    left: 27px;
+}
+
+#card-image{
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+#card-image > img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#card-text{
+   margin-bottom: 30px; 
+}
+
+#card-text > *{
+    margin-bottom: 20px;
+}
+
+#card-text > h1{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#card-text > p{
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#etherium-information{
+    display: flex;
+    justify-content: space-between;
+}
+
+#value,#date{
+    display: flex;
+}
+
+#value > span{
+    color: hsl(178, 100%, 50%);
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+#date > span{
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+hr{
+    border-color: hsla(215, 52%, 70%, 0.536);
+    margin-bottom: 10px;
+}
+
+#card-user{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+}
+
+#card-user > img{
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+#card-user > span{
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+#card-user > span > span{
+    color: white;
+    font-weight: 400;
+}
